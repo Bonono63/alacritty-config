@@ -1,6 +1,34 @@
 
 [window]
 dimensions = { columns= 100, lines=30}
-padding = { x=4, y=4 }
-opacity = 0.97
+padding = { x=8, y=8 }
+opacity = 0.95
 
+[font]
+size = 14
+
+[colors.primary]
+# Default colors
+background = '0x190a00'
+foreground = '0xffd68c'
+
+  # Normal colors
+[colors.normal]
+black = '0x2a2a2a'
+red = '0xac4142'
+green = '0x8da754'
+yellow = '0xf6b457'
+blue = '0x4d8faa'
+magenta = '0xba5eb6'
+cyan = '0x75b5aa'
+white = '0xd0d0d0'
+
+[colors.bright]
+black = '0x919191'
+red = '0xdf7a8c'
+green = '0xe3eb8e'
+yellow = '0xfee7a3'
+blue = '0x82d9eb'
+magenta = '0xf3a0cc'
+cyan = '0x8bced5'
+white = '0xffffff'
